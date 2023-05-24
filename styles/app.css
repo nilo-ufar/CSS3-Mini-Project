@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+@font-face {
+    font-family: "shabnam";
+    src: url("../fonts/Shabnam-FD.woff2") format("woff2");
+}
+body{
+    font-family: "shabnam";
+    background-color: #FAFAFA;
+}
+.container{
+    max-width: 1216px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 56px;
+
+}
+.section-head{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 28px;
+}
+.section-title{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.section-title svg{
+    width: 22px;
+    height: 22px;
+    color: #1E88E5;
+
+}
+.section-link{
+    color: #1E88E5;
+    text-decoration: none;
+}
+.row{
+    display: flex;
+    gap: 24px;
+}
+.product{
+    background-color: #fff;
+    width: 286px;
+    padding: 24px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.08);
+}
+.product__image{
+    width: 100%;
+}
+.product__name{
+    margin-top: 16px;
+    display: inline-block;
+    font-size: 14px;
+    text-decoration: none;
+    color: #2e343b;
+    min-height: 57px;
+    line-height: 1.5;
+}
+.product__offer{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    margin-top: 16px;
+    margin-bottom: 4px;
+}
+.product__offer-percent{
+    display: inline-block;
+    font-weight: bold;
+    color: #1E88E5;
+    background-color: #E3F2FD;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+.product__offer-price{
+    text-decoration: line-through;
+    color: #607D8B;
+}
+.product__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product__price{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 14px;
+}
+.product__price-number{
+    font-weight: bold;
+    font-size: 18px;
+}
+.product__price-unit{
+    color: #2e343b;
+}
+.product__rating{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.product__star-icon{
+    color: #f1c21b;
+    width: 18px;
+    height: 18px;
+}
+.product__rating-number{
+    font-size: 14px;
+    color: #2e343b;
+}
